@@ -3,12 +3,12 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/">
 
 <link rel="stylesheet" href="./jemdoc.css" type="text/css">
-<title>Hao Lin @ NJU-CS</title>
+<title>Hao Lin @ Aliyun</title>
 </head>
 <body>
 <div id="layout-content">
 <div id="toptitle">
-<h1>Hao Lin @ NJU-CS</h1>
+<h1>Hao Lin @ Aliyun</h1>
 </div>
 <table class="imgtable"><tbody><tr><td>
 <img src="Hao_Lin.jpg" alt="profile" width="160px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -39,7 +39,7 @@ Hangzhou, Zhejiang, China.<br>
 <h2>Biography</h2>
 <p>Currently, I am a R&D engineer in Aliyun Computing Co., Ltd.'s Platform of Artificial Intelligence (PAI). My research interest includes AI infrastructures, especially those for alignment tasks.</p>
 <p>Prior to this position, I received Master degree from <a href="https://cs.nju.edu.cn/" target="_blank">Department of Computer Science and Technology</a> of <a href="https://www.nju.edu.cn/" target="_blank">Nanjing University</a> in June, 2024. My thesis was about AI infrastructures for enhancing the efficiency of training LLMs. My supervisor was <a href="https://cs.nju.edu.cn/lwj/" target="_blank">Professor Wu-Jun Li</a>.</p>
-<p>Before that, I received B.Sc. degree from <a href="https://cs.nju.edu.cn/" target="_blank">Department of Computer Science and Technology</a> of <a href="https://www.nju.edu.cn/" target="_blank">Nanjing University</a> in June, 2021. In the same year, I was admitted to pursue my M.Sc. degree without entrance examination.</p></section>
+<p>Before that, I received B.Sc. degree from <a href="https://cs.nju.edu.cn/" target="_blank">Department of Computer Science and Technology</a> of <a href="https://www.nju.edu.cn/" target="_blank">Nanjing University</a> in June, 2021. In the same year, I was admitted to pursue my Master degree without entrance examination.</p></section>
 
 <section id="Education">
 	<h2>Education</h2>
@@ -62,11 +62,13 @@ Hangzhou, Zhejiang, China.<br>
 	<ul>
 		<p><li>Platform Framework and Optimization R&D Engineer. Aliyun Computing Co., Ltd. <i>(06/2024 ~ Now)</i></li>
 		<ul>
-			<li>Due to restrictions imposed by confidentiality agreements, the content cannot be displayed.</li>
+			<li>Core contributor of <a href="https://github.com/alibaba/ChatLearn">ChatLearn</a>, a flexible and efficient large-scale RLHF framework.</li>
+			<li>Training <a href="https://github.com/QwenLM/Qwen1.5">QWen2.5</a>, <a href="https://qwenlm.github.io/zh/blog/qwen2.5-max/">QWen2.5-Max</a>, <a href="https://qwenlm.github.io/zh/blog/qwq-32b-preview/">QwQ-32B</a>, and <a href="https://qwenlm.github.io/blog/qwq-max-preview/">QwQ-Max</a>.</li>
+			<li>More models are coming!</li>
 		</ul></p>
 		<p><li>Platform Framework and Optimization R&D Intern. Aliyun Computing Co., Ltd. <i>(06/2023 ~ 09/2023)</i></li>
 		<ul>
-			<li>Develop ChatLearn, a RLHF framework for training <a href="https://github.com/QwenLM/Qwen1.5">QWen1.5</a>.</li>
+			<li>Contributor of ChatLearn, a RLHF framework for training <a href="https://github.com/QwenLM/Qwen1.5">QWen1.5</a>.</li>
 			<li>Support parameter synchronization, flexible batch size generation and verify the performance.</li>
 			<li>Support online parallel strategy adaptation based on Megatron-LM.</li>
 		</ul></p>
@@ -85,13 +87,12 @@ Hangzhou, Zhejiang, China.<br>
 	<table class="imgtable"><tbody><tr><td>
 		<img src="./images/uniap.jpg" alt="UniAP" width="300px">&nbsp;</td>
 		<td align="left"><ul>
-		<li><p><b>Hao Lin</b>*, Ke Wu*, Jie Li, Jun Li, and Wu-Jun Li&dagger;: UniAP: Unifying Inter- and Intra-Layer Automatic Parallelism by Mixed Integer Quadratic Programming. <i>arXiv2307.16375</i>, 2023.
-		[<a href="https://arxiv.org/pdf/2307.16375.pdf" target="_blank">PDF</a>]
-		[Code (To be released)]
+		<li><p><b>Hao Lin</b>*, Ke Wu*, Jie Li*, Jun Li, and Wu-Jun Li&dagger;: UniAP: Unifying Inter- and Intra-Layer Automatic Parallelism by Mixed Integer Quadratic Programming. <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2025.
+		[PDF (To be released)]
 		</p>
 		</li>
 		<p style="color:#5F5F5F;font-family:Calibri, sans-serif">
-		We propose an automatic parallelism framework UniAP. It utilizes MIQP to jointly optimize DP, TP, FSDP, and PP to enhance efficiency in training large models. Experimental results show that UniAP outperforms SOTA by up to 1.71x in throughput and reduces strategy optimization time by up to 107x across five Transformer-based models.
+		We propose an automatic parallelism framework UniAP. It utilizes MIQP to jointly optimize DP, TP, FSDP, and PP to enhance efficiency in training large models. Experimental results show that UniAP outperforms SOTA by up to 3.80x in throughput and reduces strategy optimization time by up to 107x across five Transformer-based models.
 		</p>
 		</ul>
 		</td></tr></tbody></table>
